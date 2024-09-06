@@ -4,27 +4,44 @@
     "name": "Violão",
     "desc": "Preto",
     "value": "100.00",
-    "image": "../../src/assets/violao-preto.webp"
+    "image": "../../src/assets/violao-preto.webp",
+    "categoria": "Instrumento de corda",
+    "status": true
   },
   {
-    "id": 1,
+    "id": 2,
     "name": "Guitarra",
     "desc": "Preta",
     "value": "100.00",
-    "image": "../../src/assets/guitarra-preta.webp"
+    "image": "../../src/assets/guitarra-preta.webp",
+    "categoria": "Instrumento de corda",
+    "status": false
   },
   {
-    "id": 1,
+    "id": 3,
     "name": "Guitarra",
     "desc": "Branca",
     "value": "100.00",
-    "image": "../../src/assets/guitarra-branca.webp"
+    "image": "../../src/assets/guitarra-branca.webp",
+    "categoria": "Instrumento de corda",
+    "status": true
   },
   {
-    "id": 1,
+    "id": 4,
     "name": "Teclado",
     "desc": "Preto",
     "value": "100.00",
-    "image": "../../src/assets/teclado.webp"
+    "image": "../../src/assets/teclado.webp",
+    "categoria": "Instrumento de tecla",
+    "status": true
+  },
+  {
+    "id": 5,
+    "name": "Violino",
+    "desc": "Marrom",
+    "value": "100.00",
+    "image": "../../src/assets/violino.webp",
+    "categoria": "Instrumento de corda",
+    "status": false
   }
 ]

@@ -19,3 +19,9 @@
   padding: 10px;
   background-color: rgb(47, 47, 47);
 }
+
+.boxCards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

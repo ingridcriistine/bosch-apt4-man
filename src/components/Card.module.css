@@ -1,0 +1,22 @@
+.boxCard {
+    background-color: rgb(255, 255, 255);
+    width: 15%;
+    padding: 20px;
+    margin: 20px;
+    color: black;
+    border-radius: 10px;
+}
+
+.green {
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    background-color: green;
+}
+
+.red {
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+}
