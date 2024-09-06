@@ -1,12 +1,16 @@
 .boxCard {
     background-color: rgb(255, 255, 255);
-    width: 15%;
+    width: 280px;
+    height: 400px;
     padding: 20px;
     margin: 20px;
     color: black;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .green {
@@ -21,8 +25,4 @@
     width: 10px;
     height: 10px;
     background-color: red;
-}
-
-.imgCard {
-    align-self: center;
 }

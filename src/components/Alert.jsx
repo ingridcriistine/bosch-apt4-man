@@ -1,7 +1,7 @@
-import style from './Card.module.css'
+import style from './Alert.module.css'
 
 /* eslint-disable react/prop-types */
-export const Card = ({name, desc, value, image, status}) => {
+export const Alert = ({name, desc, value, image, status}) => {
   return(
       <div className={style.boxCard}>
           <h1>{name}</h1>
