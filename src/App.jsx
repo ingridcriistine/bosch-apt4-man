@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Card } from './components/Card'
 import { CardPersonagem } from './components/CardPersonagem'
-import { Alert } from './components/Alert'
 import produtos from './constants/produtos.json'
 import { api } from "./api/rmApi"
 import style from './App.module.css'
