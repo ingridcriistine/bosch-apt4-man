@@ -1,0 +1,40 @@
+.boxCard {
+    background-color: rgb(154, 155, 156);
+    width: 380px;
+    padding: 20px;
+    margin: 20px;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 1;
+    left: 15.5%;
+}
+
+h1 {
+    align-self: center;
+}
+
+h2 {
+    margin: 10px 0 20px 0;
+    align-self: center;
+}
+
+p {
+    margin: 3px;
+}
+
+img {
+    align-self: center;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+button {
+    align-self: center;
+    width: 150px;
+    background-color: rgb(104, 102, 102);
+    color: white;
+    border-radius: 10px;
+}

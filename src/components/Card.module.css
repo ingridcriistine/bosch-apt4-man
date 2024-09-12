@@ -23,6 +23,10 @@
     background-color: red;
 }
 
+img {
+    width: 60%;
+}
+
 .imgCard {
     align-self: center;
 }

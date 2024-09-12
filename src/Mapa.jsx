@@ -21,7 +21,7 @@ function Mapa() {
         <>
       <h2>Mapa</h2>
           <div style={{width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-            <MapContainer center={position} zoom={13} scrollWheelZoom={false} style={{width:'80%', height: '600px', margin: '20px'}}>
+            <MapContainer center={position} zoom={13} scrollWheelZoom={false} style={{width:'80%', height: '600px', margin: '20px', borderRadius: '10px'}}>
               <TileLayer
                 attribution='&copy; <a href="https://maps.app.goo.gl/VN8m4ndLG48Kn5MX9">Google Maps</a> contributors'
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
