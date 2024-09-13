@@ -1,32 +1,39 @@
 .boxCard {
-    background-color: rgb(255, 255, 255);
     width: 280px;
     height: auto;
-    padding: 10px;
-    margin: 20px;
-    color: black;
+    color: rgb(255, 255, 255);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+}
+
+.statusPersonagem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .green {
     border-radius: 100%;
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
     background-color: green;
 }
 
 .red {
     border-radius: 100%;
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
     background-color: red;
 }
 
 h1 {
-    margin: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.boxCard img {
+    width: 70%;
 }

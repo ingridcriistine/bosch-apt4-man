@@ -1,12 +1,14 @@
 .boxCard {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     width: 15%;
     padding: 20px;
     margin: 20px;
-    color: black;
+    color: rgb(255, 255, 255);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(255, 252, 252, 0.24) 0px 3px 8px;
 }
 
 .green {
@@ -24,9 +26,30 @@
 }
 
 img {
-    width: 60%;
+    width: 80%;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 12px;
+}
+
+.boxCard p {
+    margin: 20px;
+    background-color: rgb(114, 114, 114);
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.boxCard p:hover {
+    background-color: rgb(76, 77, 79);
 }
 
 .imgCard {
     align-self: center;
+    box-shadow: rgba(255, 252, 252, 0.24) 0px 3px 8px;
 }

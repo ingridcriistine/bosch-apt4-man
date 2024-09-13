@@ -8,7 +8,10 @@ export const CardPersonagem = ({name, status, species, type, gender, image}) => 
           <h2>{species}</h2>
           <p>{gender}</p>
           <p>{type}</p>
-          <div className={status == 'Alive' ? style.green : style.red}>{status}</div>
+          <div className={style.statusPersonagem} >
+            <div className={status == 'Alive' ? style.green : style.red}></div>
+            <p>{status}</p>
+          </div>
           <img src={image} alt={name} width={150} height={"auto"}/>
       </div>
   )

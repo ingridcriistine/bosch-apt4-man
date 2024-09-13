@@ -18,7 +18,7 @@ function Produtos() {
             <div className = {style.boxCards}>
             {produtos.map((item) => {
               return(
-                <Card name={item.name} desc={item.desc} value={item.value} image={item.image} key={item.id} status={item.status}/>
+                <Card name={item.name} desc={item.desc} value={item.value} image={item.image} key={item.id} status={item.status} categoria={item.categoria}/>
               )
              })}
             </div>

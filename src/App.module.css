@@ -38,10 +38,13 @@
   justify-content: center;
 }
 
+
 .inputs {
-  margin-left: 60px;
+  margin: 3% 8% 3% 2%;
   border-radius: 10px;
-  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-end;
 }
 
 .inputs input {
@@ -49,13 +52,44 @@
   margin: 5px;
 }
 
-h1 {
+.wrapPage h1 {
   margin-top: 100px;
+}
+
+.boxCards h1 {
+  margin: 0;
 }
 
 h4 {
   margin-top: 20px;
   margin-bottom: 30px;
+}
+
+.boxCardPersonagem {
+    height: auto;
+    background-color: rgb(26, 26, 28);
+    width: 280px;
+    height: auto;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(255, 252, 252, 0.24) 0px 3px 8px;
+}
+
+.boxCardPersonagem button {
+  margin: 10px;
+}
+
+.boxCardPersonagem h1 {
+  margin: 10px;
+}
+
+.boxCardPersonagem h2 {
+  margin: 0 0 10px 0;
 }
 
 .graficos {
